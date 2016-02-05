@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-publicHandler.${1:functionName} = function(){${2:}};
+function(${1:n}){ return ${2:};};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>puman-pubFunc</tabTrigger>
+	<tabTrigger>puman-underscore</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

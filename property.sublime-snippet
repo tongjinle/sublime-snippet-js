@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-publicHandler.${1:functionName} = function(){${2:}};
+this.${1:property} = ${2:null};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>puman-pubFunc</tabTrigger>
+	<tabTrigger>puman-property</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
