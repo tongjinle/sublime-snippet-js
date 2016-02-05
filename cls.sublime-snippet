@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+var ${1:className} = (function(){
+	var cls = function() {
+		
+	};
+
+	var staticHandler = cls;
+	var publicHandler = cls.prototype;
+
+	// static
+
+	// private
+
+	// public
+
+	return cls;
+
+}).call(this);
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>puman-class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
