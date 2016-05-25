@@ -2,17 +2,26 @@
 	<content><![CDATA[
 var ${1:className} = (function(){
 	var cls = function() {
-		
+		var self = this;
+		self.init();
 	};
 
 	var staticHandler = cls;
 	var publicHandler = cls.prototype;
 
 	// static
+	/*
+	staticHandler.fn = function(){
+		
+	};
+	*/
 
 	// private
 
 	// public
+	publicHandler.init = function(){
+		var self = this;
+	};
 
 	return cls;
 
@@ -20,7 +29,7 @@ var ${1:className} = (function(){
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>puman-class</tabTrigger>
+	<tabTrigger>cls</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

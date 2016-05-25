@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-this.${1:property} = ${2:null};
+var self = this;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>puman-property</tabTrigger>
+	<tabTrigger>self</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
